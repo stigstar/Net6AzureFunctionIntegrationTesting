@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionApp1", "src\FunctionApp1\FunctionApp1.csproj", "{56767A7B-1950-48DF-9F89-77451C806CFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionApp1.IntegrationTest", "tests\FunctionApp1.IntegrationTest\FunctionApp1.IntegrationTest.csproj", "{F822162A-FAB4-4246-809F-7433428E8A29}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56767A7B-1950-48DF-9F89-77451C806CFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56767A7B-1950-48DF-9F89-77451C806CFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56767A7B-1950-48DF-9F89-77451C806CFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56767A7B-1950-48DF-9F89-77451C806CFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F822162A-FAB4-4246-809F-7433428E8A29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F822162A-FAB4-4246-809F-7433428E8A29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F822162A-FAB4-4246-809F-7433428E8A29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F822162A-FAB4-4246-809F-7433428E8A29}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FD68E901-ED02-4E45-920C-9FBDC8015653}
+	EndGlobalSection
+EndGlobal
